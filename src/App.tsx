@@ -5,7 +5,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {getImages} from "./redux/actions/images";
 import {Container} from "@mui/material";
 import {AppStateType} from "./redux/store";
-import Paginate from "./components/paginate";
+import Paginate from "./components/Paginate";
 import Popup from "./components/Popup";
 import Sort from "./components/Sort";
 import {ISortItemsType} from "./types/ISortUtem";
