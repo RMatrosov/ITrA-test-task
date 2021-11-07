@@ -35,7 +35,7 @@ const Main = () => {
                 </Grid>) : (Array(10)
                     .fill(0)
                     .map((_, index) => <Grid item key={index} xs={6} sm={3} md={3}>
-                        <Skeleton key={index} variant="rectangular" width={150}
+                        <Skeleton style={{margin: '0 auto'}} key={index} variant="rectangular" width={150}
                                   height={287}/>
                     </Grid>))}
             </Grid>
